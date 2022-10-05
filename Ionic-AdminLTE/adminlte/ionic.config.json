@@ -1,0 +1,7 @@
+{
+  "name": "adminlte",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

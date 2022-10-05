@@ -1,0 +1,58 @@
+
+//COMANDOS 
+
+ionic g c shared/adminlte/preloader
+ionic g c shared/adminlte/main-header
+ionic g c shared/adminlte/main-sidebar
+ionic g c shared/adminlte/main-footer
+ionic g m shared/adminlte/adminlte --flat
+
+
+ionic g page modules/test
+
+
+
+
+
+
+
+
+
+
+
+//ANGULAR.JSON
+"styles": [
+              "src/theme/variables.scss", 
+              "src/global.scss",
+              "node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css",
+              "node_modules/admin-lte/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css",
+              "node_modules/admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css",
+              "node_modules/admin-lte/plugins/jqvmap/jqvmap.min.css",
+              "node_modules/admin-lte/dist/css/adminlte.min.css",
+              "node_modules/admin-lte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css",
+              "node_modules/admin-lte/plugins/daterangepicker/daterangepicker.css",
+              "node_modules/admin-lte/plugins/summernote/summernote-bs4.min.css"
+            ],
+            "scripts": [
+              "node_modules/admin-lte/plugins/jquery/jquery.min.js",
+              "node_modules/admin-lte/plugins/jquery-ui/jquery-ui.min.js",
+              "node_modules/admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js",
+              "node_modules/admin-lte/plugins/chart.js/Chart.min.js",
+              "node_modules/admin-lte/plugins/sparklines/sparkline.js",
+              "node_modules/admin-lte/plugins/jqvmap/jquery.vmap.min.js",
+              "node_modules/admin-lte/plugins/jqvmap/maps/jquery.vmap.usa.js",
+              "node_modules/admin-lte/plugins/jquery-knob/jquery.knob.min.js",
+              "node_modules/admin-lte/plugins/moment/moment.min.js",
+              "node_modules/admin-lte/plugins/daterangepicker/daterangepicker.js",
+              "node_modules/admin-lte/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js",
+              "node_modules/admin-lte/plugins/summernote/summernote-bs4.min.js",
+              "node_modules/admin-lte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js",
+              "node_modules/admin-lte/dist/js/adminlte.js",
+              "node_modules/admin-lte/dist/js/demo.js",
+              "node_modules/admin-lte/dist/js/pages/dashboard.js"
+            ],
+
+
+/// IMG
+https://adminlte.io/themes/v3/dist/img/AdminLTELogo.png
+https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg
